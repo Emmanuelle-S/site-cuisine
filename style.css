@@ -107,7 +107,51 @@ nav {
 
 .footer-container {
     display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: rgba(65,43,35,255);
 }
+    
+
+.footer-nav {
+    color: rgb(238, 227, 207);
+    text-decoration: none;
+    
+}
+
+.footer-img {
+    background-image: url(img/footer.svg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 100%;
+    height : 20vw;
+    margin-bottom: -110px;
+
+}
+
+.footer-nav h3 {
+    padding: 16px;
+}
+
+.footer-nav a {
+    color: rgb(238, 227, 207);
+}
+
+.footer-follow h3 {
+    color: rgb(238, 227, 207);
+    padding: 16px;
+}
+
+.fa-brands {
+    color: rgb(238, 227, 207);
+}
+
+.footer-newletter {
+    color: rgb(238, 227, 207);
+    padding: 16px;
+}
+
+
 
 
 
