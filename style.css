@@ -192,3 +192,26 @@ hr {
     font-size: smaller;
   }
 }
+
+
+
+/* ElioDKM — Aujourd’hui à 16:54
+<div class="articlebadge-contener">
+              <p class="Articlebadge">Viande</p> 
+            </div>
+.Articlebadge {
+            background-color: #2a6914;
+            color: white;
+            position: absolute;
+            border-radius: 15px;
+            font-size: 14px;
+            font-weight: bold;
+            margin: 10px;
+            padding: 3px 7px;
+            z-index: 1;
+        }
+
+        .articlebadge-contener {
+            display: flex;
+            justify-content: flex-end;
+        } */
