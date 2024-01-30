@@ -1,94 +1,100 @@
+
+
+/* GENERAL */
+
 * {
-    margin: 0;
-    box-sizing: border-box;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
-    font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
 }
 
-.main-title, h2, h3 {
-    font-family: 'Comfortaa', cursive;
+.main-title,
+h2,
+h3 {
+  font-family: "Comfortaa", cursive;
 }
 
 /* HEADER */
 
 .header {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    background-color: #5a2e0f;
-    min-height: 75px;
-    padding: 16px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-color: #5a2e0f;
+  min-height: 75px;
+  padding: 16px;
 }
 
 header a {
-    color: white;
-    text-decoration: none;
+  color: white;
+  text-decoration: none;
 }
 
 #loupe {
-    height: 20px;
+  height: 20px;
 }
 
 button {
-    background-color: transparent;
-    border: none;
-    padding: 8px;
-    align-items: self-end;
+  background-color: transparent;
+  border: none;
+  padding: 8px;
+  align-items: self-end;
 }
 
 nav {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 #logo {
-    height: 50px;
+  height: 50px;
 }
 
 .search {
-    min-width: 200px;
-    border-radius: 15px;
+  min-width: 200px;
+  border-radius: 15px;
 }
 
 /* ARTICLE */
 
 .main-title {
-    text-align: center;
-    padding: 16px;
-    color: #076828;
-
+  text-align: center;
+  padding: 16px;
+  color: #076828;
 }
 
 .recipes-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    max-width: 1200px;
-    margin: auto;
-    row-gap: 18px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  max-width: 1200px;
+  margin: auto;
+  row-gap: 18px;
 }
 
-.recipes h2, p, a {
-    padding: 16px;
+.recipes h2,
+p,
+a {
+  padding: 16px;
 }
 
 .recipes a {
-    color: #076828;
+  color: #076828;
 }
 
 .lien {
-    text-align: right;
+  text-align: right;
 }
 
 .recipes-container .recipes {
-    max-width: 360px;
-    border-radius: 8px;
-    box-shadow:
-    2.8px 2.8px 2.2px rgba(0, 0, 0, 0.02),
+  max-width: 360px;
+  border-radius: 8px;
+  box-shadow: 2.8px 2.8px 2.2px rgba(0, 0, 0, 0.02),
     6.7px 6.7px 5.3px rgba(0, 0, 0, 0.028),
     12.5px 12.5px 10px rgba(0, 0, 0, 0.035),
     22.3px 22.3px 17.9px rgba(0, 0, 0, 0.042),
@@ -97,88 +103,92 @@ nav {
 }
 
 .recipes img {
-    max-width: 360px;
-    max-height: 200px;
-    min-width: 360px;
-    min-height: 200px;
-    object-fit: cover;
-    border-top-right-radius: 8px;
-    border-top-left-radius: 8px;
-
+  max-width: 360px;
+  max-height: 200px;
+  min-width: 360px;
+  min-height: 200px;
+  object-fit: cover;
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
 }
 
 .fa-star {
-    color: rgb(255, 230, 4);
-    padding: 4px;
+  color: rgb(255, 230, 4);
+  padding: 4px;
 }
 
 /* .recipes {
     flex: 0 1 auto;
 } */
 
-
 /* FOOTER */
 
 .footer-container {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    background-color: #5a2e0f;
-    padding-bottom: 16px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-color: #5a2e0f;
+  padding-bottom: 16px;
 }
 
-
-    
-
 .footer-nav {
-    color: rgb(238, 227, 207);
-    text-decoration: none; 
+  color: rgb(238, 227, 207);
+  text-decoration: none;
 }
 
 .footer-img {
-    background-image: url(img/footer.svg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    height : 15vw;
-    margin-bottom: -10px;
-    margin-top: 16px;
+  background-image: url(img/footer.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 15vw;
+  margin-bottom: -10px;
+  margin-top: 16px;
 }
 
 .footer-nav h3 {
-    padding: 16px;
+  padding: 16px;
 }
 
 .footer-nav a {
-    color: rgb(238, 227, 207);
+  color: rgb(238, 227, 207);
 }
 
 .footer-follow h3 {
-    color: rgb(238, 227, 207);
-    padding: 16px;
+  color: rgb(238, 227, 207);
+  padding: 16px;
 }
 
 .fa-brands {
-    color: rgb(238, 227, 207);
+  color: rgb(238, 227, 207);
 }
 
 .footer-newletter {
-    color: rgb(238, 227, 207);
-    padding: 16px;
+  color: rgb(238, 227, 207);
+  padding: 16px;
 }
 
 hr {
-    color: solid black;
-    size: 5px;
+  color: solid black;
+  size: 5px;
 }
 
 .copyright {
-    text-align: center;
-    background-color: #5a2e0f;
-    color: rgb(238, 227, 207);
-
+  text-align: center;
+  background-color: #5a2e0f;
+  color: rgb(238, 227, 207);
 }
 
+/* MEDIAS QUERIES */
 
+@media screen and (max-width: 360px) {
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
 
-
+  .header, .footer-container, #cgv, .copyright {
+    font-size: smaller;
+  }
+}

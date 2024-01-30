@@ -1,0 +1,19 @@
+/* GENERAL  */
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+.main-title, h2, h3 {
+    font-family: 'Comfortaa', cursive;
+}
+
+.header, .recipes-container, .footer-container {
+    display: flex;
+}
