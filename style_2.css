@@ -12,7 +12,8 @@ body {
 
 .main-title,
 h2,
-h3 {
+h3,
+.form_main-title {
   font-family: "Comfortaa", cursive;
 }
 
@@ -112,9 +113,9 @@ button {
   flex: 0 1 360px;
   border-radius: 8px;
   box-shadow: 2.8px 2.8px 2.2px rgba(0, 0, 0, 0.02),
-    6.7px 6.7px 5.3px rgba(0, 0, 0, 0.028),
-    12.5px 12.5px 10px rgba(0, 0, 0, 0.035),
-    22.3px 22.3px 17.9px rgba(0, 0, 0, 0.042),
+    6.7008px 6.7008px 5.2992px rgba(0, 0, 0, 0.028),
+    12.5008px 12.5008px 10px rgba(0, 0, 0, 0.035),
+    22.3008px 22.3008px 17.8992px rgba(0, 0, 0, 0.042),
     41.8px 41.8px 33.4px rgba(0, 0, 0, 0.05),
     100px 100px 80px rgba(0, 0, 0, 0.07);
 }
@@ -205,8 +206,17 @@ hr {
 
 /* PAGE FORMULAIRE */
 
+.form_main-title {
+  color: #076828;
+}
+
 .main-form {
   flex-direction: column;
+}
+
+.main-form input {
+  border: 1px solid #52d37d;
+  width: 350px;
 }
 
 .register-container {
@@ -217,14 +227,19 @@ hr {
 }
 
 .register-container img {
-  max-width: 400px;
+  max-width: 100%;
   border-radius: 8px;
 }
 
 #submit {
-  width: 100%;
+  width: 100px;
+  height: 30px;
   color: white;
   background-color: #2a6914;
+}
+
+.main-form a {
+  color: #076828;
 }
 
 /* MEDIAS QUERIES */
