@@ -36,6 +36,8 @@ h3 {
 header a {
   color: white;
   text-decoration: none;
+  margin-top: 1em;
+  margin-left: 8px;
 }
 
 #logo {
@@ -46,6 +48,11 @@ header a {
 .header-nav {
   justify-content: space-around;
   flex-wrap: wrap;
+  padding-top: 1em;
+}
+
+.nav-form {
+  margin-top: 1em;
 }
 
 .search {
