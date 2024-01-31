@@ -107,6 +107,23 @@ button {
   border-top-left-radius: 8px;
 }
 
+.articlebadge {
+    background-color: #2a6914;
+    color: white;
+    position: absolute;
+    border-radius: 15px;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 8px;
+    padding: 3px 7px;
+    z-index: 1;
+}
+
+.articlebadge-contener {
+    display: flex;
+    justify-content: flex-end;
+} 
+
 .fa-star {
   color: rgb(255, 230, 4);
   padding: 4px;
