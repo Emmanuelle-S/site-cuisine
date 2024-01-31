@@ -212,9 +212,6 @@ hr {
   background-position: center;
   background-size: cover;
   height: 60vh;
-  /* width: 25vw; */
-  /* margin-bottom: -10px;
-  margin-top: 16px; */
   flex: 1 1 300px;
 }
 
@@ -238,11 +235,6 @@ hr {
   max-width: 900px;
   margin: auto;
 }
-
-/* .register-container img {
-  max-width: 100%;
-  border-radius: 8px;
-} */
 
 #submit {
   width: 100px;
