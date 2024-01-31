@@ -24,6 +24,18 @@ h3 {
   padding: 16px;
 }
 
+.padd_8 {
+  padding: 8px;
+}
+
+.margin_b {
+  margin-bottom: 8px;
+}
+
+.radius_6 {
+  border-radius: 6px;
+}
+
 /* HEADER */
 
 .header {
@@ -67,6 +79,10 @@ button {
   background-color: transparent;
   border: none;
   padding: 0.5em;
+}
+
+.fa-user {
+  color: white;
 }
 
 /* MAIN */
@@ -187,6 +203,30 @@ hr {
   color: rgb(238, 227, 207);
 }
 
+/* PAGE FORMULAIRE */
+
+.main-form {
+  flex-direction: column;
+}
+
+.register-container {
+  gap: 90px;
+  flex-wrap: wrap;
+  max-width: 900px;
+  margin: auto;
+}
+
+.register-container img {
+  max-width: 400px;
+  border-radius: 8px;
+}
+
+#submit {
+  width: 100%;
+  color: white;
+  background-color: #2a6914;
+}
+
 /* MEDIAS QUERIES */
 
 @media screen and (max-width: 360px) {
@@ -201,5 +241,9 @@ hr {
   #cgv,
   .copyright {
     font-size: smaller;
+  }
+
+  .header a {
+    margin-left: 0;
   }
 }
