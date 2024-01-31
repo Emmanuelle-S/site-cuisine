@@ -206,17 +206,30 @@ hr {
 
 /* PAGE FORMULAIRE */
 
+.form_img {
+  background-image: url(img/register-pic-400.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 60vh;
+  /* width: 25vw; */
+  /* margin-bottom: -10px;
+  margin-top: 16px; */
+  flex: 1 1 300px;
+}
+
 .form_main-title {
   color: #076828;
 }
 
 .main-form {
   flex-direction: column;
+  flex: 1 1 300px;
 }
 
 .main-form input {
   border: 1px solid #52d37d;
-  width: 350px;
+  width: 100%;
 }
 
 .register-container {
@@ -226,10 +239,10 @@ hr {
   margin: auto;
 }
 
-.register-container img {
+/* .register-container img {
   max-width: 100%;
   border-radius: 8px;
-}
+} */
 
 #submit {
   width: 100px;
